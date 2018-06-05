@@ -1,0 +1,104 @@
+body {
+  background-color: #e3e5e5;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 1366px) {
+  .container {
+    width: 70%;
+  }
+}
+
+header {
+  padding: 10px 15px;
+  background-color: #fff;
+}
+header h2 {
+  color: #21a97e;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 800;
+  font-family: 'ArialMT', sans-serif;
+}
+
+@font-face {
+  font-family: 'ArialMT';
+  src: url("../fonts/ArialMT.eot?#iefix") format("embedded-opentype"), url("../fonts/ArialMT.woff") format("woff"), url("../fonts/ArialMT.ttf") format("truetype"), url("../fonts/ArialMT.svg#ArialMT") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Georgia';
+  src: url("../fonts/Georgia.eot?#iefix") format("embedded-opentype"), url("../fonts/Georgia.woff") format("woff"), url("../fonts/Georgia.ttf") format("truetype"), url("../fonts/Georgia.svg#Georgia") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+.clouds-big {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+.clouds-big .img-ct {
+  width: 488px;
+  height: 138px;
+}
+.clouds-big .img-ct img {
+  width: 100%;
+  height: 100%;
+}
+.clouds-big .img-ct1 {
+  position: absolute;
+  top: 20%;
+  left: 30%;
+}
+.clouds-big .img-ct2 {
+  position: absolute;
+  top: 30%;
+  left: 40%;
+}
+.clouds-big .img-ct3 {
+  position: absolute;
+  top: 5%;
+  left: 0;
+}
+.clouds-big .img-ct4 {
+  position: absolute;
+  top: 60%;
+  left: 3%;
+}
+.clouds-big .img-ct5 {
+  position: absolute;
+  top: 80%;
+  left: 70%;
+}
+
+.clouds-little {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.ground {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 3;
+}
+
+.description {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 4;
+}
+
+/*# sourceMappingURL=style.css.map */

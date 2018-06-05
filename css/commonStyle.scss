@@ -1,0 +1,10 @@
+body {
+  background-color: #e3e5e5;
+}
+.container {
+  width: 940px;
+  margin: 0 auto;
+  @media screen and (max-width: 1366px) {
+    width: 70%;
+  }
+}

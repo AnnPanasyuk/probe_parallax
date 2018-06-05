@@ -1,0 +1,40 @@
+.clouds-big {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  .img-ct {
+    width: 488px;
+    height: 138px;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .img-ct1 {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+  }
+  .img-ct2 {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+  }
+  .img-ct3 {
+    position: absolute;
+    top: 5%;
+    left: 0;
+  }
+  .img-ct4 {
+    position: absolute;
+    top: 60%;
+    left: 3%;
+  }
+  .img-ct5 {
+    position: absolute;
+    top: 80%;
+    left: 70%;
+  }
+}
