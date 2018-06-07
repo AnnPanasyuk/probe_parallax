@@ -4,4 +4,33 @@
   left: 0;
   width: 100%;
   z-index: 2;
+  .img-ct {
+    width: 311px;
+    height: 105px;
+  }
+  img {
+    width: 311px;
+    height: 105px;
+  }
+  .img1 {
+    position: absolute;
+    top: 85px;
+    left: -270px;
+  }
+  .img2 {
+    position: absolute;
+    top: 440px;
+    left: 795px;
+  }
+  .img3 {
+    position: absolute;
+    top: 900px;
+    left: -220px;
+  }
+  .img4 {
+    position: absolute;
+    top: 1020px;
+    left: 450px;
+  }
+
 }
