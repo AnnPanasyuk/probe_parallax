@@ -14,24 +14,50 @@
         </div>
     </header>
     <div class="description" data-stellar-ratio="2.2">
-        <div class="text-ct first-manned-flights">
+        <div id="first-manned-flights" class="text-ct first-manned-flights">
             <h2>First manned flights</h2>
             <p>The first clearly recorded instance of a balloon carrying passengers used hot air to generate buoyancy and was built by the brothers Joseph-Michel and Jacques-Etienne Montgolfier in Annonay, France. After experimenting with unmanned balloons and flights with animals, the first tethered balloon flight with humans on board took place on October 15, 1783.</p>
+            <hr>
+            <hr>
+            <a class="next frameless-parachute" href="#the-frameless-parachute">
+                <div class="triangle-down"></div>
+            </a>
         </div>
-        <div class="text-ct the-frameless-parachute">
+        <div id="the-frameless-parachute" class="text-ct the-frameless-parachute">
             <h2>The frameless parachute</h2>
             <p>André-Jacques Garnerin carried out the first jump with a silk parachute on October 22, 1797 at Parc Monceau, Paris. Garnerin's first parachute resembled a closed umbrella before he ascended; at a height of approximately 3,000 feet he severed the rope that connected his parachute to the balloon, and the basket fell to earth. Garnerin emerged uninjured.</p>
+            <a class="prev manned-flight" href="#first-manned-flights">
+                <div class="triangle-up"></div>
+            </a>
+            <hr>
+            <hr>
+            <a class="next english-channel" href="#over-the-english-channel">
+                <div class="triangle-down"></div>
+            </a>
         </div>
-        <div class="text-ct over-the-english-channel">
+        <div id="over-the-english-channel" class="text-ct over-the-english-channel">
             <h2>Over the English Channel</h2>
             <p>On January 7, 1785, Jean Pierre Blanchard and Dr. John Jeffries made the first flight over the English Channel, traveling from Dover to France. During the crossing the balloon lost altitude, so they began tossing everything in the gondola they possibly could, even their clothes. About two hours after take off, they crossed the French coast clad only in their underwear.</p>
+            <a class="prev frameless-parachute" href="#the-frameless-parachute">
+                <div class="triangle-up"></div>
+            </a>
+            <hr>
+            <hr>
+            <a class="next about" href="#about">
+                <div class="triangle-down"></div>
+            </a>
         </div>
-        <div class="text-ct about">
+        <div id="about" class="text-ct about">
             <h2>About</h2>
             <p>This is a jQuery parallax scrolling experiment by Jonathan Nicol. <a href="https://jonathannicol.com/blog/2011/08/06/build-a-parallax-scrolling-website-interface-with-jquery-and-css/">Read about it</a> on my blog.</p>
+            <a class="prev english-channel" href="#over-the-english-channel">
+                <div class="triangle-up"></div>
+            </a>
+            <hr>
+            <hr>
         </div>
     </div>
-    <div class="clouds-big" data-stellar-vertical-offset="0" data-stellar-ratio="1">
+    <div class="clouds-big" data-stellar-vertical-offset="0" data-stellar-ratio="1.1">
         <div class="img-ct img-ct1">
             <img class="img img1" alt="cloud" src="img/cloud-lg1.png">
         </div>
@@ -62,7 +88,7 @@
             <img class="img img4" alt="cloud" src="img/cloud-lg2.png">
         </div>
     </div>
-    <div class="balloon" data-stellar-ratio="1.7">
+    <div class="balloon" data-stellar-ratio="1.6">
         <div class="balloon-ct balloon-ct1">
             <img class="img img1" alt="balloon" src="img/balloon.png">
         </div>
@@ -73,7 +99,7 @@
             <img class="img img3" alt="balloon" src="img/balloon3.png">
         </div>
     </div>
-    <div class="ground" data-stellar-ratio="1.1">
+    <div class="ground" data-stellar-ratio="1.2">
         <div class="container">
             <div class="ground-ct">
                 <img alt="ground" src="img/ground.png">
@@ -83,5 +109,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="js/stellar.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/scroll.js"></script>
 </body>
 </html>
