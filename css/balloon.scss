@@ -1,0 +1,41 @@
+.balloon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 4;
+  .balloon-ct1 {
+    width: 529px;
+    height: 757px;
+  }
+  .balloon-ct2 {
+    width: 603px;
+    height: 583px;
+  }
+  .balloon-ct3 {
+    width: 446px;
+    height: 713px;
+  }
+  img {
+    display: block;
+    position: absolute;
+  }
+  .img1 {
+    width: 529px;
+    height: 757px;
+    top: -111px;
+    right: 230px;
+  }
+  .img2 {
+    width: 603px;
+    height: 583px;
+    top: 812px;
+    right: 183px;
+  }
+  .img3 {
+    width: 446px;
+    height: 713px;
+    top: 1628px;
+    right: 242px;
+  }
+}

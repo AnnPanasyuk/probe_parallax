@@ -1,7 +1,28 @@
 .ground {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 3;
+  .container {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    @media screen and (max-width: 1366px) {
+      width: 74%;
+    }
+  }
+  .ground-ct {
+    width: 1104px;
+    height: 684px;
+  }
+  img {
+    width: 1104px;
+    height: 684px;
+    display: block;
+    position: absolute;
+    top: 1785px;
+    left: -55px;
+    margin: 0 0 215px;
+  }
 }

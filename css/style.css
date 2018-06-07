@@ -69,13 +69,13 @@ header h2 {
 }
 .clouds-big .img4 {
   position: absolute;
-  top: 1180px;
-  left: 250px;
+  top: 900px;
+  left: 890px;
 }
 .clouds-big .img5 {
   position: absolute;
-  top: 900px;
-  left: 890px;
+  top: 1180px;
+  left: 250px;
 }
 
 .clouds-little {
@@ -115,19 +115,122 @@ header h2 {
 }
 
 .ground {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 3;
 }
+.ground .container {
+  width: 1000px;
+  margin: 0 auto;
+  position: relative;
+}
+@media screen and (max-width: 1366px) {
+  .ground .container {
+    width: 74%;
+  }
+}
+.ground .ground-ct {
+  width: 1104px;
+  height: 684px;
+}
+.ground img {
+  width: 1104px;
+  height: 684px;
+  display: block;
+  position: absolute;
+  top: 1785px;
+  left: -55px;
+  margin: 0 0 215px;
+}
 
 .description {
-  position: fixed;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 5;
+}
+.description .text-ct {
+  width: 300px;
+  position: absolute;
+  display: block;
+  left: 220px;
+}
+.description .first-manned-flights {
+  top: 155px;
+}
+.description .the-frameless-parachute {
+  top: 1245px;
+}
+.description .over-the-english-channel {
+  top: 2335px;
+}
+.description .about {
+  top: 3350px;
+}
+.description .about a {
+  text-decoration: none;
+  color: #21a97e;
+}
+.description h2 {
+  line-height: 65px;
+  margin: 0 0 25px;
+  font-size: 60px;
+  font-family: 'Georgia', sans-serif;
+  font-weight: 400;
+  color: #21a97e;
+}
+.description p {
+  line-height: 23.8px;
+  margin: 1em 0;
+  color: #000000;
+  font-family: 'ArialMT', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.balloon {
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 4;
+}
+.balloon .balloon-ct1 {
+  width: 529px;
+  height: 757px;
+}
+.balloon .balloon-ct2 {
+  width: 603px;
+  height: 583px;
+}
+.balloon .balloon-ct3 {
+  width: 446px;
+  height: 713px;
+}
+.balloon img {
+  display: block;
+  position: absolute;
+}
+.balloon .img1 {
+  width: 529px;
+  height: 757px;
+  top: -111px;
+  right: 230px;
+}
+.balloon .img2 {
+  width: 603px;
+  height: 583px;
+  top: 812px;
+  right: 183px;
+}
+.balloon .img3 {
+  width: 446px;
+  height: 713px;
+  top: 1628px;
+  right: 242px;
 }
 
 /*# sourceMappingURL=style.css.map */
