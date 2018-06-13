@@ -1,13 +1,47 @@
 .dots {
   position: fixed;
   top: 50%;
-  left: 93%;
-  transform: translate(93%, -50%);
+  left: 94%;
+  transform: translate(94%, -50%);
   z-index: 7;
+  li {
+    position: relative;
+  }
   a {
     text-decoration: none;
+    &:focus, &:hover, &:active {
+      outline: none;
+      border: none;
+    }
+  }
+  .text-ct {
+    width: 130px;
+    padding: 10px;
+    background-color: #21a97e;
+    position: absolute;
+    top: -50%;
+    display: none;
+    left: -165px;
+  }
+  .triangle-right {
+    position: absolute;
+    top: 38%;
+    right: -9px;
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-left: 10px solid #21a97e;
+    border-bottom: 8px solid transparent;
+  }
+
+  p {
+    width: 100%;
+    color: #ffffff;
+    font-family: 'ArialMT', sans-serif;
+    font-size: 16px;
   }
   button {
+    transition: .3s;
     cursor: pointer;
     width: 13px;
     height: 13px;
@@ -16,6 +50,10 @@
     border-radius: 50%;
     &:hover {
       background-color: #ffffff;
+      outline: none;
+      border: none;
+    }
+    &:focus, &:hover, &:active {
       outline: none;
       border: none;
     }

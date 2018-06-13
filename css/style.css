@@ -267,14 +267,47 @@ header h2 {
 .dots {
   position: fixed;
   top: 50%;
-  left: 93%;
-  transform: translate(93%, -50%);
+  left: 94%;
+  transform: translate(94%, -50%);
   z-index: 7;
+}
+.dots li {
+  position: relative;
 }
 .dots a {
   text-decoration: none;
 }
+.dots a:focus, .dots a:hover, .dots a:active {
+  outline: none;
+  border: none;
+}
+.dots .text-ct {
+  width: 130px;
+  padding: 10px;
+  background-color: #21a97e;
+  position: absolute;
+  top: -50%;
+  display: none;
+  left: -165px;
+}
+.dots .triangle-right {
+  position: absolute;
+  top: 38%;
+  right: -9px;
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-left: 10px solid #21a97e;
+  border-bottom: 8px solid transparent;
+}
+.dots p {
+  width: 100%;
+  color: #ffffff;
+  font-family: 'ArialMT', sans-serif;
+  font-size: 16px;
+}
 .dots button {
+  transition: .3s;
   cursor: pointer;
   width: 13px;
   height: 13px;
@@ -284,6 +317,10 @@ header h2 {
 }
 .dots button:hover {
   background-color: #ffffff;
+  outline: none;
+  border: none;
+}
+.dots button:focus, .dots button:hover, .dots button:active {
   outline: none;
   border: none;
 }
