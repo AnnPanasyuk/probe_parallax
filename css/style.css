@@ -1,217 +1,294 @@
 body {
   background-color: #e3e5e5;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+}
 
 .container {
   width: 940px;
-  margin: 0 auto; }
-  @media screen and (max-width: 1366px) {
-    .container {
-      width: 70%; } }
+  margin: 0 auto;
+}
+@media screen and (max-width: 1366px) {
+  .container {
+    width: 70%;
+  }
+}
 
 header {
   padding: 10px 15px;
-  background-color: #fff; }
-  header h2 {
-    color: #21a97e;
-    font-size: 18px;
-    line-height: 27px;
-    font-weight: 800;
-    font-family: 'ArialMT', sans-serif; }
+  background-color: #fff;
+}
+header h2 {
+  color: #21a97e;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 800;
+  font-family: 'ArialMT', sans-serif;
+}
 
 @font-face {
   font-family: 'ArialMT';
   src: url("../fonts/ArialMT.eot?#iefix") format("embedded-opentype"), url("../fonts/ArialMT.woff") format("woff"), url("../fonts/ArialMT.ttf") format("truetype"), url("../fonts/ArialMT.svg#ArialMT") format("svg");
   font-weight: normal;
-  font-style: normal; }
+  font-style: normal;
+}
 @font-face {
   font-family: 'Georgia';
   src: url("../fonts/Georgia.eot?#iefix") format("embedded-opentype"), url("../fonts/Georgia.woff") format("woff"), url("../fonts/Georgia.ttf") format("truetype"), url("../fonts/Georgia.svg#Georgia") format("svg");
   font-weight: normal;
-  font-style: normal; }
+  font-style: normal;
+}
 .clouds-big {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 1; }
-  .clouds-big .img-ct {
-    width: 488px;
-    height: 138px; }
-  .clouds-big img {
-    width: 488px;
-    height: 138px; }
-  .clouds-big .img1 {
-    position: absolute;
-    top: 162px;
-    left: 200px; }
-  .clouds-big .img2 {
-    position: absolute;
-    top: 300px;
-    left: 1150px; }
-  .clouds-big .img3 {
-    position: absolute;
-    top: 543px;
-    left: -35px; }
-  .clouds-big .img4 {
-    position: absolute;
-    top: 900px;
-    left: 890px; }
-  .clouds-big .img5 {
-    position: absolute;
-    top: 1180px;
-    left: 250px; }
+  z-index: 1;
+}
+.clouds-big .img-ct {
+  width: 488px;
+  height: 138px;
+}
+.clouds-big img {
+  width: 488px;
+  height: 138px;
+}
+.clouds-big .img1 {
+  position: absolute;
+  top: 162px;
+  left: 200px;
+}
+.clouds-big .img2 {
+  position: absolute;
+  top: 300px;
+  left: 1150px;
+}
+.clouds-big .img3 {
+  position: absolute;
+  top: 543px;
+  left: -35px;
+}
+.clouds-big .img4 {
+  position: absolute;
+  top: 900px;
+  left: 890px;
+}
+.clouds-big .img5 {
+  position: absolute;
+  top: 1180px;
+  left: 250px;
+}
 
 .clouds-little {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 2; }
-  .clouds-little .img-ct {
-    width: 311px;
-    height: 105px; }
-  .clouds-little img {
-    width: 311px;
-    height: 105px; }
-  .clouds-little .img1 {
-    position: absolute;
-    top: 85px;
-    left: -270px; }
-  .clouds-little .img2 {
-    position: absolute;
-    top: 440px;
-    left: 795px; }
-  .clouds-little .img3 {
-    position: absolute;
-    top: 900px;
-    left: -220px; }
-  .clouds-little .img4 {
-    position: absolute;
-    top: 1020px;
-    left: 450px; }
+  z-index: 2;
+}
+.clouds-little .img-ct {
+  width: 311px;
+  height: 105px;
+}
+.clouds-little img {
+  width: 311px;
+  height: 105px;
+}
+.clouds-little .img1 {
+  position: absolute;
+  top: 85px;
+  left: -270px;
+}
+.clouds-little .img2 {
+  position: absolute;
+  top: 440px;
+  left: 795px;
+}
+.clouds-little .img3 {
+  position: absolute;
+  top: 900px;
+  left: -220px;
+}
+.clouds-little .img4 {
+  position: absolute;
+  top: 1020px;
+  left: 450px;
+}
 
 .ground {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 3; }
+  z-index: 3;
+}
+.ground .container {
+  width: 1000px;
+  margin: 0 auto;
+  position: relative;
+}
+@media screen and (max-width: 1366px) {
   .ground .container {
-    width: 1000px;
-    margin: 0 auto;
-    position: relative; }
-    @media screen and (max-width: 1366px) {
-      .ground .container {
-        width: 74%; } }
-  .ground .ground-ct {
-    width: 1104px;
-    height: 684px; }
-  .ground img {
-    width: 1104px;
-    height: 684px;
-    display: block;
-    position: absolute;
-    top: 1985px;
-    left: -55px;
-    margin: 0 0 215px; }
+    width: 74%;
+  }
+}
+.ground .ground-ct {
+  width: 1104px;
+  height: 684px;
+}
+.ground img {
+  width: 1104px;
+  height: 684px;
+  display: block;
+  position: absolute;
+  top: 1985px;
+  left: -55px;
+  margin: 0 0 215px;
+}
 
 .description {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 5; }
-  .description .text-ct {
-    width: 300px;
-    position: absolute;
-    display: block;
-    left: 220px; }
-    .description .text-ct hr {
-      margin: 2px 0;
-      width: 100%;
-      height: 1px;
-      background-color: #000000;
-      color: #000000; }
-    .description .text-ct .triangle-up {
-      display: block;
-      margin: 0 auto 5px;
-      width: 0;
-      height: 0;
-      border-left: 7px solid transparent;
-      border-right: 7px solid transparent;
-      border-bottom: 11px solid #21a97e; }
-    .description .text-ct .triangle-down {
-      display: block;
-      margin: 5px auto 0;
-      width: 0;
-      height: 0;
-      border-left: 7px solid transparent;
-      border-right: 7px solid transparent;
-      border-top: 11px solid #21a97e; }
-  .description .first-manned-flights {
-    top: 155px; }
-  .description .the-frameless-parachute {
-    top: 1180px; }
-  .description .over-the-english-channel {
-    top: 2240px; }
-  .description .about {
-    top: 3250px; }
-    .description .about a {
-      text-decoration: none;
-      color: #21a97e; }
-  .description .vertical_middle {
-    position: absolute;
-    top: 50%;
-    left: 220px;
-    transform: translate(-50%, -220px); }
-  .description h2 {
-    line-height: 65px;
-    margin: 0 0 25px;
-    font-size: 60px;
-    font-family: 'Georgia', sans-serif;
-    font-weight: 400;
-    color: #21a97e; }
-  .description p {
-    line-height: 23.8px;
-    margin: 1em 0;
-    color: #000000;
-    font-family: 'ArialMT', sans-serif;
-    font-weight: 400;
-    font-size: 14px; }
+  z-index: 5;
+}
+.description .text-ct {
+  width: 300px;
+  position: absolute;
+  display: block;
+  left: 220px;
+}
+.description .text-ct hr {
+  margin: 2px 0;
+  width: 100%;
+  height: 1px;
+  background-color: #000000;
+  color: #000000;
+}
+.description .text-ct .triangle-up {
+  display: block;
+  margin: 0 auto 5px;
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-bottom: 11px solid #21a97e;
+}
+.description .text-ct .triangle-down {
+  display: block;
+  margin: 5px auto 0;
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-top: 11px solid #21a97e;
+}
+.description .first-manned-flights {
+  top: 155px;
+}
+.description .the-frameless-parachute {
+  top: 1180px;
+}
+.description .over-the-english-channel {
+  top: 2240px;
+}
+.description .about {
+  top: 3250px;
+}
+.description .about a {
+  text-decoration: none;
+  color: #21a97e;
+}
+.description .vertical_middle {
+  position: absolute;
+  top: 50%;
+  left: 220px;
+  transform: translate(-50%, -220px);
+}
+.description h2 {
+  line-height: 65px;
+  margin: 0 0 25px;
+  font-size: 60px;
+  font-family: 'Georgia', sans-serif;
+  font-weight: 400;
+  color: #21a97e;
+}
+.description p {
+  line-height: 23.8px;
+  margin: 1em 0;
+  color: #000000;
+  font-family: 'ArialMT', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
 
 .balloon {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 4; }
-  .balloon .balloon-ct1 {
-    width: 529px;
-    height: 757px; }
-  .balloon .balloon-ct2 {
-    width: 603px;
-    height: 583px; }
-  .balloon .balloon-ct3 {
-    width: 446px;
-    height: 713px; }
-  .balloon img {
-    display: block;
-    position: absolute; }
-  .balloon .img1 {
-    width: 529px;
-    height: 757px;
-    top: -111px;
-    right: 230px; }
-  .balloon .img2 {
-    width: 603px;
-    height: 583px;
-    top: 812px;
-    right: 183px; }
-  .balloon .img3 {
-    width: 446px;
-    height: 713px;
-    top: 1628px;
-    right: 242px; }
+  z-index: 4;
+}
+.balloon .balloon-ct1 {
+  width: 529px;
+  height: 757px;
+}
+.balloon .balloon-ct2 {
+  width: 603px;
+  height: 583px;
+}
+.balloon .balloon-ct3 {
+  width: 446px;
+  height: 713px;
+}
+.balloon img {
+  display: block;
+  position: absolute;
+}
+.balloon .img1 {
+  width: 529px;
+  height: 757px;
+  top: -111px;
+  right: 230px;
+}
+.balloon .img2 {
+  width: 603px;
+  height: 583px;
+  top: 812px;
+  right: 183px;
+}
+.balloon .img3 {
+  width: 446px;
+  height: 713px;
+  top: 1628px;
+  right: 242px;
+}
+
+.dots {
+  position: fixed;
+  top: 50%;
+  left: 93%;
+  transform: translate(93%, -50%);
+  z-index: 7;
+}
+.dots a {
+  text-decoration: none;
+}
+.dots button {
+  cursor: pointer;
+  width: 13px;
+  height: 13px;
+  border: none;
+  background-color: #21a97e;
+  border-radius: 50%;
+}
+.dots button:hover {
+  background-color: #ffffff;
+  outline: none;
+  border: none;
+}
+.dots .btn-active {
+  background-color: #ffffff;
+}
 
 /*# sourceMappingURL=style.css.map */

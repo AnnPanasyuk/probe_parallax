@@ -1,0 +1,26 @@
+.dots {
+  position: fixed;
+  top: 50%;
+  left: 93%;
+  transform: translate(93%, -50%);
+  z-index: 7;
+  a {
+    text-decoration: none;
+  }
+  button {
+    cursor: pointer;
+    width: 13px;
+    height: 13px;
+    border: none;
+    background-color: #21a97e;
+    border-radius: 50%;
+    &:hover {
+      background-color: #ffffff;
+      outline: none;
+      border: none;
+    }
+  }
+  .btn-active {
+    background-color: #ffffff;
+  }
+}
